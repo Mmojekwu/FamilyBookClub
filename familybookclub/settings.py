@@ -28,7 +28,7 @@ SECRET_KEY = 'aopc*+(q_1vd+o1flz0q2_2odj%ujz58@#w$mgw*q_w^t*mpo5'
 DEBUG = True
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['https://familybookclub.herokuapp.com/']
+ALLOWED_HOSTS = ['familybookclub.herokuapp.com']
 
 
 # Application definition

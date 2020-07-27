@@ -1,0 +1,1 @@
+web: gunicorn familybookclub.wsgi

@@ -1,0 +1,63 @@
+/* I ued just the recommended Flickity */
+
+* { box-sizing: border-box; }
+
+.carousel {
+    position: absolute;
+    top: 180px;
+    width: 150%;
+    left: -42%;
+    transform: scale(0.9);
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0),  #F1F1F1, #ddd);
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+}
+
+.flickity-prev-next-button.previous {
+    position: absolute;
+    left: 43.5% !important;
+}
+.flickity-prev-next-button.next {
+    right: -0.5px !important;
+}
+.flickity-prev-next-button {
+  height: 4000px !important; 
+  border-radius: 0px !important; 
+}
+
+.flickity-page-dots {
+  left: 390px !important;
+  top: 430px !important;
+  transform: scale(0.8) !important;
+  
+}
+.flickity-page-dots .dot{
+  background-color: #64C000 !important;
+}
+.carousel-cell {
+    margin-right: 20px;
+    overflow: hidden;
+    
+}
+
+
+.carousel-cell img {
+    display: block;
+    height: 200px;
+    
+}
+
+ @media screen and ( min-width: 1110px ) {
+  .carousel-cell img {
+    height: 400px;
+  }
+}
+
+@media screen and ( max-width: 1110px ) {
+  .flickity-page-dots {
+    left: 20% !important;
+    top: 300px !important;
+    
+  }
+   
+}
+

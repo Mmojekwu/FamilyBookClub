@@ -1,0 +1,80 @@
+.sidebar-nav{
+    position: fixed;
+    width: 333px;
+    height: 100%;
+    left: 0px;
+    top: 100px;
+    z-index: 2;
+    background-color: white;
+    overflow-y: auto;
+    box-shadow: -10px 30px 40px rgba(0, 0, 0, 0.08);
+}
+.sidenav-sections{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0.76%;
+    bottom: 67.74%;
+}
+.user-navs{
+    bottom: 94.96%;
+}
+.home-title {
+    color: #65C100;
+    padding-left: 40px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.title{
+    padding-left: 40px;
+    font-size: 14px;
+    color: #000000;
+
+}
+.divider{
+    border-top: 0px solid #EEEEEE;
+}
+.notif{
+    position: absolute;
+    left: 281px;
+    
+}
+.side-gray{
+    position: absolute;
+    left: 120px;
+    padding-left: 164px;
+    color: #AAAAAA;
+    
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.notif-books{
+    top: 138px;
+}
+
+.notif-favourites{
+    top: 334px;
+}
+
+.notif-borrowed{
+    top: 304px;
+}
+
+.notif-queued{
+    top: 272px;
+}
+
+.notif-authors{
+    top: 198px;
+}
+
+.notif-genres{
+    top: 168px;
+}
+
+.notif-members{
+    top: 468px;
+}

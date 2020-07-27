@@ -1,0 +1,226 @@
+/* --------------------MAINSECTION---------------------------*/
+.mainfeature{
+    z-index: 1;
+}
+.featuredbooks-label, .featured-divider,
+ .divider-label2, .divider-label3, .label-2, .label-3{
+    position: absolute;
+    left: 371px;
+}
+.featuredbooks-label{
+    position: absolute;
+    height: 17px;
+    right: 0px;
+    top: 127px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000000;
+}
+.prev{
+    position: absolute;
+    left: 400px;
+    right: 0px;
+    top: 330px; 
+
+}
+.featured-divider{
+    position: absolute;
+    top: 172px;
+    width: 900px;
+}
+.divider-label2{
+    position: absolute;
+    top: 668px;
+    width: 900px;
+}
+.divider-label3{
+    position: absolute;
+    top: 1136px;
+    width: 900px;
+}
+.book-thumb-cover{
+    position: absolute;
+    width: 209px;
+    height: 310px;
+    top: 195px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+}
+.book-thumb-cover1{
+    position: absolute;
+    left: 303.79px;
+}
+.book-thumb-cover2{
+    position: absolute;
+    left: 558.69px;
+}
+
+.book-thumb-cover3{
+    position: absolute;
+    left: 786.27px;
+}
+.book-thumb-cover4{
+    position: absolute;
+    left: 1013.98px;
+}
+
+
+.bookcard{
+    width: 22.43%;
+    height: 160px;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: box-shadow 0.3s;
+}
+.bookcard:hover {
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.15);
+}
+ .bookcard-column1{
+    position: absolute;
+    left: 369.91px;
+}
+.bookcard-column2{
+    position: absolute;
+    left: 694.88px ;
+} 
+.bookcard-column3{
+    position: absolute;
+    left: 1020.27px;
+}
+.bookcard-row1{
+    position: absolute;
+    top: 674px;
+}
+.bookcard-row2{
+    position: absolute;
+    top: 864px;
+}
+.bookcard-row3{
+    position: absolute;
+    top: 1141px;
+}
+.bookcard-row4{
+    position: absolute;
+    top: 1333px;
+}
+.bookcard-row5{
+    position: absolute;
+    top: 1525px;
+}
+.bookcard-row6{
+    position: absolute;
+    top: 1716px;
+}
+.bookcard-row7{
+    position: absolute;
+    top: 1907px;
+    margin-bottom: 204px;
+}
+.bookcover{
+    width: 100px;
+    height: 160px;
+    margin-left: 0px;
+    padding-left: 0px;
+    float: left;
+}
+.label-2{
+    position: absolute;
+    top: 627px;
+    font-size: 14px;
+}
+
+.label-3{
+    position: absolute;
+    top: 1070px;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 14px;
+}
+.details{
+    padding-top: 1px;
+    margin-left: 120px;
+}
+.people, .likes{
+    display: inline; 
+}
+.bookcard .people-shape{
+    position: absolute;
+    top: 114px;
+    margin-left: 10px;
+}
+
+.bookcard .likes-shape{
+    position: absolute;
+    top: 115px;
+    margin-left: 33px;
+}
+.people {
+    margin-left: 10px;
+}
+.likes{
+    margin-left: 6px;
+}
+.title-bold{
+    font-size: 14px;
+    font-weight: bold;
+}
+.available{
+    color: #65C100;
+}
+.borrowed{
+    color: red;
+}
+.people-shape,.likes-shape{
+    margin-top: 7px ; 
+}
+
+
+@media screen and (max-width: 1110px) {
+    
+    .bookcard{
+        position: absolute;
+        float: left;
+        left: 369.91px;
+        width: 100%;
+        height: 160px;
+        padding-top: 30px;
+    }
+    .bookcover{
+        width: 100px;
+        height: 160px;
+        margin-left: 0px;
+        padding-left: 0px;
+        float: left;
+    }
+    .bookcard-column3{
+        display: none;
+    }
+    .people-shape, .likes-shape{
+        margin-top: 37px;
+    }
+    .bookcard:hover{
+        box-shadow: none;
+    }
+  }
+
+
+@media screen and (max-width: 680px) {
+    .bookcover{
+        width: 100px;
+        height: 160px;
+        margin-left: 0px;
+        padding-left: 0px;
+        float: left;
+    }
+    .bookcard-column2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:1257px){
+    .people-shape, .likes-shape {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,207 @@
+body{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffffff;
+        
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.header-lg{
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    z-index: 3;
+}
+input[type=text] {
+    position: absolute;
+    top: -8px;
+    outline:none;
+    width:  100%;
+    padding: 11.5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #DDDDDD;
+}
+button{
+    border: none ;
+    background: none ;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+.button{
+    padding: 0;
+}
+#search-button{
+    background-color: #EEEEEE;
+}
+
+.icon-button{
+    position: absolute;
+    width: 40px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+#search{
+    position: absolute;
+    height: 40px;
+    left: 30.56%;
+    right: 31.94%;
+    top: calc(50% - 40px/2);
+    transition: 0.4s;
+}
+.bg-1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    opacity: 0.97;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+}
+.nav{
+    position: absolute;
+    left: 85.42%;
+    right: 2.78%;
+    top: 25%;
+    bottom: 25%;
+}
+.avatar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 40px;
+    top: calc(50% - 50px/2);
+    border-radius: 50%;
+    background: #429EB0
+}
+.text-label-caps{
+    position: absolute;
+    left: 18.33%;
+    right: 20%;
+    top: 41.67%;
+    bottom: 41.67%;
+}
+.group{
+    position: absolute;
+    left: 85.42%;
+    right: 7.64%;
+    top: 25%;
+    bottom: 25%;
+    
+}
+#badged-icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 110px;
+    top: calc(50% - 50px/2);
+}
+.badge{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: calc(50% - 20px/2 + 10px);
+    top: calc(50% - 20px/2 - 10px);
+}
+.bg-3{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #65C100;
+    border-radius: 10px;
+}
+.count{
+    position: absolute;
+    height: 12px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 12px/2);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+#libraries{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 160px;
+    top: calc(50% - 50px/2);
+}
+.Shape-2{
+    position: absolute;
+    width: 21.26px;
+    height: 20px;
+    left: calc(50% - 21.26px/2 - 0px);
+    top: calc(50% - 20px/2 + 0px);
+    background: #000000;
+}
+
+.bg-5{
+    position: absolute;
+    left: 0%;   
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    background-color: #F9F9FB;
+}
+#brand{
+    position: absolute;
+    width: 211px;
+    height: 50px;
+    left: 40px;
+    top: calc(50% - 50px/2);
+}
+.Brand-Name{
+    position: absolute;
+    height: 21px;
+    left: 65px;
+    right: 0px;
+    top: -10px;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+}
+.User{
+    position: absolute;
+    height: 14px;
+    left: 66px;
+    right: 109px;
+    top: 20px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #AAAAAA;  
+}
+.badge-background{
+    height: 20px;
+    width: 20px;
+    background-color:  #65C100;
+    border-radius: 50%;
+}
+.badge-count{
+    position: absolute;
+    top: -10px;
+    left: 6px;
+    font-weight: bold;
+    color: white;
+}

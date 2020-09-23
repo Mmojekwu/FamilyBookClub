@@ -8,5 +8,5 @@
 You can adjust the screen size to see User interface for the mobile or pc screen
 
 ## Instructions to configure and prepare the source code to build and run properly.
-There's no configuraion required, only internet connection since I USED THE RECOMMENDED Flickity by Metafizzy.
+There's no configuraion required, only internet connection since I used Flickity by Metafizzy.
 No bootstrap was used, just plain CSS.
